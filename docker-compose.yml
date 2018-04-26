@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  backend:
+    image: dto80/se234-lab11
+    ports:
+      - "8087:8080"
+  frontend:
+    image: 592115007/se234-lab11-frontend:latest
+    ports:
+      - "8085:80"
+
