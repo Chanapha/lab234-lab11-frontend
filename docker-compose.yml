@@ -5,7 +5,7 @@ services:
     ports:
       - "8087:8080"
     volumes:
-      - type : bind
+      - type: bind
         source: ./xxx
         target: /data
   frontend:
